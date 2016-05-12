@@ -1,0 +1,112 @@
+body {
+	background-color: #BEC8CA;
+	font-family: Helvetica, Arial, Sans-serif;
+	font-size:18;
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 28px 8px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1, h2, h3, {
+	margin: 0px;
+}
+#info_box_large h1 {
+	font-size: 24px;
+	text-align: left;
+	color: white;
+	padding: 0px 0 2px 10px;
+}
+
+/* Container Start...*/
+
+#container {
+	width: 95%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Header Start....*/
+
+#info_box_small {
+	margin-top: 5px;
+	width: 50%;
+	height: 140px;
+	background-color: #7DD1C0;
+	float:left;
+	font-size:30px
+}
+
+#image-one{
+	float:right;
+	padding:40px;
+	
+}
+#info_box_large {
+	margin-top: 5px;
+	width: 50%;
+	height: 140px;
+	background-color: #7DD1C0;
+	float:right;
+}
+
+/*Contents Starts....*/
+
+#content{
+	padding: 10px;
+}
+
+/* Naigation starts...*/
+
+#nav{
+
+
+}
+}
+#nav .selected {
+	font-weight: bold;
+}
+
+ 
+/*Main starts....*/
+
+#main {
+	
+	float: right
+	
+}
+
+/* footer Starts */
+
+#footer{
+	background-color: #161B2F;
+	clear: both;
+	text-align: right;
+	padding: 10px;
+	color: white;
+}
